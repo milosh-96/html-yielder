@@ -13,5 +13,4 @@ Open **inc/variables.php** and define some variables. You can find instructions 
 
 Open your HTML files and include those variables. Remember, you call a variable in this fornat: **{variable}**.
 
-### Do NOT open files directly (File > Open, Open With...), in that case this won't work! ###
 
