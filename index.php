@@ -2,17 +2,11 @@
 
    $file = file('index.html');
    if(isset($_GET['path'])) {
-       $file = file($_GET['path'] . '.html');
+    $file = file($_GET['path'] . '.html');
    }
- 
-   $vars =
-       [
-           "name"=>"Kaya",
-           "service1"=>"Graphics",
-           "service2"=>"Video"
-       ];
+   require_once($_SERVER['DOCUMENT_ROOT'].'/inc/variables.php');
    foreach($file as $line) {
-       foreach($vars as $key => $value) {
+       foreach($variables as $key => $value) {
          if(strpos($line,'{'.$key.'}')) {
              $line = str_replace('{'.$key.'}',$value,$line);
          }
