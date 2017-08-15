@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML Yielder</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous" />
+		<link rel="stylesheet" href="/css/main.css" />	
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div id="headsection" class="row">
+				<span><strong>&lt;HTML</strong>Yielder&gt;</span>	
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="row" style="margin-top:50px">
+				<div class="col-md-6">
+					<div class="panel panel-default"">
+						<div class="panel-heading">How it Works?</div>
+						<div class="panel-body">
+							Before taking an advantage of HTMLYielder you will have to edit your HTML files one more time.
+							You will put <code>{variable}</code> instead of hard-coded text.
+						<p>After that, HTMLYielder will scan your HTML files and the program will replace those variables with the proper values. You define values in <code>variables.php</code>.</p>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">What are requirments?</div>
+						<div class="panel-body">
+							HTMLYielder requires only PHP.  
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">Directory Structure</div>
+						<div class="panel-body">
+								<p>HTMLYielder files have to be placed in the HTML files directory. </p>
+								<p>Every HTML file in the HTML directory will have ability to get values from variables.</p>
+									<code>
+										<ul class="list-group">
+											<li class="list-group-item"><strong>ROOT FOLDER</strong></li>
+											<li class="list-group-item">--inc (folder)</li>
+											<li class="list-group-item">.htaccess</li>
+											<li class="list-group-item">index.php</li>
+											<li class="list-group-item">index.html</li>
+											<li class="list-group-item">services.html</li>
+											<li class="list-group-item">...</li>
+										</ul>
+									</code>
+						</div>
+					</div>
+			</div>
+			<div class="col-md-6">
+				<a class="btn btn-info" style="width:100%;padding:20px 0;font-size:36px;" href="https://github.com/milosh-96/html-yielder/archive/master.zip">Download <small>(0.1)</small></a>
+				<a class="btn btn-success" style="width:100%;padding:5px 0;font-size:18px;" href="https://github.com/milosh-96/html-yielder/">View on GitHub</a>
+				
+			</div>
+			
+		</div>
+		</div>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</body>
+</html>
